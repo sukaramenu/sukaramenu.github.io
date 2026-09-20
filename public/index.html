@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <meta name="theme-color" content="#fff3f6">
+
+    <meta
+        name="description"
+        content="مأكولات سُكره - المنيو الإلكتروني"
+    >
+
+    <title>مأكولات سُكره</title>
+
+    <!-- الخطوط -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Katibeh&family=Noto+Kufi+Arabic:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         شاشة البداية
+    ========================== -->
+    <div id="splashScreen" class="splash-screen">
+
+        <div class="splash-content">
+
+            <div class="logo-orbit">
+                <div class="logo-circle">
+                    سُكره
+                </div>
+            </div>
+
+            <h1>مأكولات سُكره</h1>
+
+            <p>طعمٌ يستحق التجربة</p>
+
+            <div class="loading-line">
+                <span></span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         التطبيق
+    ========================== -->
+    <main id="app" class="app">
+
+<!-- =========================
+     الهيدر
+========================= -->
+<header class="hero">
+
+    <div class="hero-glow hero-glow-one"></div>
+    <div class="hero-glow hero-glow-two"></div>
+
+<div class="hero-top">
+
+    <button
+        class="icon-button"
+        id="scrollTopButton"
+        aria-label="العودة إلى الأعلى"
+    >
+        ↑
+    </button>
+
+</div>
+    <div class="hero-content">
+
+        <span class="welcome-text">
+            أهلاً وسهلاً بكم
+        </span>
+<h1>
+   مأكولات سُكره
+</h1>
+
+    </div>
+
+    <div class="hero-wave"></div>
+
+</header>
+
+
+<!-- =========================
+     الأقسام
+========================= -->
+<section class="categories-section">
+
+    <div class="categories-title">
+        <span>الأصناف</span>
+    </div>
+
+    <div
+        class="categories"
+        id="categories"
+    ></div>
+
+</section>
+
+
+<!-- =========================
+     المنيو
+========================= -->
+<section
+    class="menu-section"
+    id="menuSection"
+>
+
+    <div class="menu-heading">
+
+        <div>
+            <span id="activeCategorySubtitle"></span>
+
+            <h2 id="activeCategoryTitle">
+                الكل
+            </h2>
+        </div>
+
+    </div>
+
+    <div
+        class="menu-grid"
+        id="menuGrid"
+    ></div>
+
+</section>                <!-- الأقسام سيتم توليدها من JavaScript -->
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             محتوى المنيو
+        ========================== -->
+        <section
+            class="menu-section"
+            id="menuSection"
+        >
+
+            <div class="active-category-header">
+
+                <div>
+                    <span id="activeCategorySubtitle">
+                    </span>
+
+                    <h2 id="activeCategoryTitle">
+                    </h2>
+                </div>
+
+                <div class="category-decoration">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+
+
+            <div
+                class="menu-grid"
+                id="menuGrid"
+            >
+
+                <!-- الأصناف سيتم توليدها من JavaScript -->
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             دعوة للطلب
+        ========================== -->
+        <section class="bottom-message">
+
+            <div class="message-card">
+
+                <div class="message-icon">
+                    
+                </div>
+
+        </section>
+
+
+        <!-- =========================
+             الفوتر
+        ========================== -->
+        <footer class="footer">
+
+            <div class="footer-logo">
+                سُكره
+            </div>
+
+            <div class="footer-line"></div>
+
+            <small>
+                المنيو الإلكتروني
+            </small>
+
+            <div class="creator">
+
+                <span>
+                </span>
+
+                <strong>
+                    Ahmed Maitham - 07744276603
+                </strong>
+
+            </div>
+
+        </footer>
+
+    </main>
+
+
+    <!-- زر العودة للأعلى -->
+    <button
+        id="floatingTopButton"
+        class="floating-top"
+        aria-label="العودة للأعلى"
+    >
+        ↑
+    </button>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
