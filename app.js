@@ -51,7 +51,7 @@ const menuItems = [
             { name: "وسط", price: 15 },
             { name: "كبير", price: 20 }
         ],
-        image: "images/dolma.png"
+        image: "images/d.jpg"
     },
 
     {
@@ -64,7 +64,7 @@ const menuItems = [
             { name: "وسط", price: 15 },
             { name: "كبير", price: 20 }
         ],
-        image: ""
+        image: "images/bry.jpg"
     },
 
     {
@@ -76,7 +76,7 @@ const menuItems = [
             { name: "دجاجة كاملة", price: 22 },
             { name: "نصف دجاجة", price: 11 }
         ],
-        image: ""
+        image: "images/mkl.jpg"
     },
 
     {
@@ -88,7 +88,7 @@ const menuItems = [
             { name: "دجاجة كاملة", price: 18 },
             { name: "نصف دجاجة", price: 10 }
         ],
-        image: ""
+        image: "images/dodo.jpg"
     },
 
     {
@@ -100,7 +100,7 @@ const menuItems = [
             { name: "دجاجة كاملة", price: 18 },
             { name: "نصف دجاجة", price: 10 }
         ],
-        image: ""
+        image: "images/mndy.jpg"
     },
 
     {
@@ -111,7 +111,7 @@ const menuItems = [
         options: [
             { name: "15 حبة", price: 5 },
         ],
-        image: ""
+        image: "images/kbh.jpg"
     },
 
     {
@@ -122,7 +122,7 @@ const menuItems = [
         options: [
             { name: "15 حبة", price: 5 },
         ],
-        image: ""
+        image: "images/brg.jpg"
     },
 
     {
@@ -133,7 +133,7 @@ const menuItems = [
         options: [
             { name: "10 قطع", price: 7 }
         ],
-        image: ""
+        image: "images/lhm.jpg"
     },
 
     {
@@ -146,7 +146,7 @@ const menuItems = [
             { name: "وسط", price: 8 },
             { name: "كبير", price: 10 }
         ],
-        image: ""
+        image: "images/pitza.jpg"
     },
 
 
@@ -164,7 +164,7 @@ const menuItems = [
             { name: "وسط", price: 8 },
             { name: "كبير", price: 10 }
         ],
-        image: "images/kekshai.jpg"
+        image: "images/k.jpg"
     },
 
     {
@@ -177,7 +177,7 @@ const menuItems = [
             { name: "وسط", price: 12 },
             { name: "كبير", price: 15 }
         ],
-        image: ""
+        image: "images/brk.jpg"
     },
 
     {
@@ -188,7 +188,7 @@ const menuItems = [
         options: [
             { name: "القطعة", price: 2 }
         ],
-        image: ""
+        image: "images/tr.jpg"
     },
 
     {
@@ -199,7 +199,7 @@ const menuItems = [
         options: [
             { name: "العلبة", price: 5 }
         ],
-        image: ""
+        image: "images/khshkhsh.jpg"
     },
 
     {
@@ -211,7 +211,7 @@ const menuItems = [
             { name: "عادية", price: 6 },
             { name: "بالمكسرات", price: 8 }
         ],
-        image: ""
+        image: "images/bsbs.jpg"
     },
 
     {
@@ -225,7 +225,7 @@ const menuItems = [
             { name: "مكس حشوات مع مكسرات", price: 7 }
         ],
         note: "الحشوات: نوتيلا • بستاشيو • لوتس • وايت شوكليت",
-        image: ""
+        image: "images/bard.jpg"
     },
 
     {
@@ -237,7 +237,7 @@ const menuItems = [
             { name: "وسط", price: 1 },
             { name: "كبير", price: 1.5 }
         ],
-        image: ""
+        image: "images/coc.jpg"
     },
 
 
@@ -251,11 +251,10 @@ const menuItems = [
         name: "سمبوسة",
         description: "",
         options: [
-            { name: "لحم — 25 قطعة", price: 7 },
-            { name: "دجاج — 25 قطعة", price: 7 },
-            { name: "جبن — 25 قطعة", price: 7 }
+            { name: "25 قطعة", price: 7 },
         ],
-        image: ""
+        note: "لحم / دجاج / جبن",
+        image: "images/samposa.jpg"
     },
 
     {
@@ -266,7 +265,7 @@ const menuItems = [
         options: [
             { name: "10 قطع", price: 6 }
         ],
-        image: ""
+        image: "images/ftaar.jpg"
     },
 
     {
@@ -277,7 +276,7 @@ const menuItems = [
         options: [
             { name: "10 قطع", price: 6 }
         ],
-        image: ""
+        image: "images/mnmn.jpg"
     },
 
     {
@@ -290,7 +289,7 @@ const menuItems = [
             { name: "جوز وتمر", price: 10 },
             { name: "جوز", price: 12 }
         ],
-        image: "images/klija.jpg"
+        image: "images/klicha.jpg"
     },
 
     {
@@ -301,7 +300,7 @@ const menuItems = [
         options: [
             { name: "القطعة", price: 2 }
         ],
-        image: ""
+        image: "images/saj.jpg"
     },
 
     {
@@ -314,7 +313,7 @@ const menuItems = [
             { name: "وسط", price: 8 },
             { name: "كبير", price: 10 }
         ],
-        image: "images/khalia.jpg"
+        image: "images/klia.jpg"
     }
 ];
 
